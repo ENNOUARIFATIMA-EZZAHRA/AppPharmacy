@@ -87,3 +87,6 @@ src/
 🔹 Tests fonctionnels réalisés avec Postman.
 
 🔹 Livraison dans les délais impartis.
+
+#Lien de collection des tests des API avec Postman:
+https://.postman.co/workspace/My-Workspace~2be7e78b-294c-4e8d-8fab-bf07529f7a9c/collection/44577571-468e67a4-20af-43eb-9bea-12287d965d64?action=share&creator=44577571
