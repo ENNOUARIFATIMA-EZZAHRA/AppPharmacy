@@ -87,6 +87,82 @@ src/
 🔹 Tests fonctionnels réalisés avec Postman.
 
 🔹 Livraison dans les délais impartis.
+*****************************************
+Voici comment tester ton API Spring Boot avec Postman, étape par étape en français, en utilisant les routes que tu as données :
+
+✅ 1. Ouvrir Postman
+Assure-toi que :
+
+Ton projet Spring Boot est en cours d'exécution (commande : mvn spring-boot:run).
+
+L’URL de base est http://localhost:8080.
+
+✅ 2. Créer un produit (POST)
+Méthode : POST
+
+URL : http://localhost:8080/api/product
+
+Onglet : Body
+
+Choisir : raw → puis JSON (à droite)
+
+Exemple de contenu JSON :
+
+json
+Copier
+Modifier
+{
+  "name_article": "Doliprane",
+  "description": "Paracétamol 1000mg",
+  "prix": 25.0,
+  "quantite": 150
+}
+Clique sur Send
+
+✅ 3. Récupérer tous les produits (GET)
+Méthode : GET
+
+URL : http://localhost:8080/api/product
+
+Clique sur Send
+
+Tu verras la liste des produits ajoutés.
+
+✅ 4. Récupérer un produit par ID (GET)
+Méthode : GET
+
+URL : http://localhost:8080/api/product/1 (changer 1 par l’ID que tu veux tester)
+
+Clique sur Send
+
+✅ 5. Modifier un produit (PUT)
+Méthode : PUT
+
+URL : http://localhost:8080/api/product/1
+
+Onglet : Body > raw > JSON
+
+Contenu JSON :
+
+json
+Copier
+Modifier
+{
+  "name_article": "Doliprane Updated",
+  "description": "Paracétamol 1000mg",
+  "prix": 30.0,
+  "quantite": 200
+}
+Clique sur Send
+
+✅ 6. Supprimer un produit (DELETE)
+Méthode : DELETE
+
+URL : http://localhost:8080/api/product/1
+
+Clique sur Send
+*********************************
+
 
 #Lien de collection des tests des API avec Postman:
 https://.postman.co/workspace/My-Workspace~2be7e78b-294c-4e8d-8fab-bf07529f7a9c/collection/44577571-468e67a4-20af-43eb-9bea-12287d965d64?action=share&creator=44577571
