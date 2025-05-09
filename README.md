@@ -131,14 +131,14 @@ Tu verras la liste des produits ajoutés.
 ✅ 4. Récupérer un produit par ID (GET)
 Méthode : GET
 
-URL : http://localhost:8080/api/product/1 (changer 1 par l’ID que tu veux tester)
+URL : http://localhost:8080/api/product
 
 Clique sur Send
 
 ✅ 5. Modifier un produit (PUT)
 Méthode : PUT
 
-URL : http://localhost:8080/api/product/1
+URL : http://localhost:8080/api/product/1(changer 1 ...par l’ID que tu veux tester choises les produits dans mysql)
 
 Onglet : Body > raw > JSON
 
@@ -158,7 +158,7 @@ Clique sur Send
 ✅ 6. Supprimer un produit (DELETE)
 Méthode : DELETE
 
-URL : http://localhost:8080/api/product/1
+URL : http://localhost:8080/api/product/1 (changer 1 ... par l’ID que tu veux tester choises les produits dans mysql)
 
 Clique sur Send
 *********************************
